@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Odin - A Jekyll Knowledge Base Theme
+title: Bixel - only a static page
 description: Odin is a simple to setup and use Jekyll theme for help desks and knowledge bases. Hosts for free on Github Pages!
-baseurl: /bixel # the subpath of your site, e.g. /support
+baseurl: "/bixel" # the subpath of your site, e.g. /support
 url: "https://visual-paradigm.github.io" # the base hostname AND PROTOCOL for your site, e.g. http://example.com
 permalink: /:categories/:title
 
@@ -51,7 +51,7 @@ nav_item_three: #
 nav_item_three_link: #
 
 nav_button: Return to Home
-nav_button_link: https://teaguns.github.io/odin/
+nav_button_link: https://github.com/Visual-paradigm/bixel/
 
 # More Help
 help_one_title: Odin Bugs
