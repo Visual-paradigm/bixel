@@ -1,6 +1,5 @@
 #This file defines all the categories you are using
 
-
 using-subcategories:
   name: Using Subcategories
   description: Learn to use subcategories!
@@ -9,4 +8,11 @@ using-odin:
   description: Welcome to Odin, time to get started
 customizing-odin:
   name: Customizing Odin
-  description: Welcome to Odin, time to get started
+  description: Welcome to Odin, time to get startedt
+masks:
+  name: Mascaras
+  description: una interesante descripcion
+image-ascii:
+  name: Imagen a ASCII
+  description: una interesante descripcion
+
