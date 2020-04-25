@@ -1,23 +1,19 @@
 #Tihs file defines all categories that live within a parent category
 
 
-subcategory-one:
-  name: Subcategory One
-  parent-category: using-subcategories
-  parent-category-name: Using Subcategories
-  description: This is your first subcategory!
-subcategory-two:
-  name: Subcategory Two
-  parent-category: using-subcategories
-  parent-category-name: Using Subcategories
-  description: This is your second subcategory!
-subcategory-three:
-  name: Subcategory Three
-  parent-category: using-subcategories
-  parent-category-name: Using Subcategories
-  description: This is your third subcategory!
+
 grayscale:
    name: Escala de grises
    parent-category: image-processing
    parent-category-name: Procesamiento de imágenes
    description: This is your third subcategory!
+convolution-masks:
+   name: Mascaras de convolución
+   parent-category: image-processing
+   parent-category-name: Procesamiento de imágenes
+   description: This is your third subcategory!   
+convertion-ascii:
+   name: Conversión a ASCII
+   parent-category: image-processing
+   parent-category-name: Procesamiento de imágenes
+   description: This is your third subcategory! 

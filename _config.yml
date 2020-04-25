@@ -20,14 +20,14 @@
 
 title: Bixel - only a static page
 description: Odin is a simple to setup and use Jekyll theme for help desks and knowledge bases. Hosts for free on Github Pages!
-baseurl: "/bixel" # the subpath of your site, e.g. /support
+baseurl: "/bixel/" # the subpath of your site, e.g. /support
 url: "https://visual-paradigm.github.io" # the base hostname AND PROTOCOL for your site, e.g. http://example.com
 permalink: :categories/:title
 
 content_type: Visual Computing #Define whether this is a knowledge base, help center, or something else
 use_authors: true #Set this to false to disable showing post authors
 
-brand_logo: logo.png
+brand_logo: programmer.png
 brand_name: Bixel
 header: Bixel a simple static page
 subheader: Trabajos de la asignatura Computación Visual.
@@ -35,10 +35,7 @@ subheader: Trabajos de la asignatura Computación Visual.
 meta_image: odin-meta.png
 
 # Social Links
-twitter_username: TheTeaGuns
-facebook_page:
-github_username: TeaGuns
-email: m@credd.in
+github_username: Visual-paradigm
 linkedin_page:
 instagram_username: 
 
@@ -54,12 +51,20 @@ nav_button: Return to Home
 nav_button_link: /bixel/
 
 # More Help
+
 help_one_title: Bixel Bugs
-help_one_content: If you find any bugs or problems with this theme, please open an issue over on Github.
+help_one_content: Si encuentras cualquier bug o problema con la pagina, por favor coloca el problema en github
 help_one_button: Github
 help_one_link: https://github.com/Visual-paradigm/bixel/issues
 
+help_two_title: Suggestions
+help_two_content: Si cuentas con alguna sugerencia no dudes en comunicarte con nosotros.
+help_two_button: Github
+help_two_link: https://github.com/Visual-paradigm/
+
+
 # Build settings
+markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed

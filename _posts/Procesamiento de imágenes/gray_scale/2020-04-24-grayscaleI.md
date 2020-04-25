@@ -9,7 +9,7 @@ short-description: Implementación en processing
 
 # Escala de Grises
 Para la realizacion de la practica presentada a continuación fue necesario 
-contrar con processing 
+contrar con...
 
 
 
@@ -19,7 +19,7 @@ contrar con processing
 
 La implementacion de la estrategia utilizada es presentada a continuación
 
-```Java
+```java
 PImage image;
 PImage image2;
 boolean toggle;

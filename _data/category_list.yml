@@ -1,16 +1,8 @@
 #This file defines all the categories you are using
 
-using-subcategories:
-  name: Using Subcategories
-  description: Learn to use subcategories!
-using-odin:
-  name: Using Odin
-  description: Welcome to Odin, time to get started
-customizing-odin:
-  name: Customizing Odin
-  description: Welcome to Odin, time to get startedt
+
 image-processing:
   name: Procesamiento de imágenes
-  description: una interesante descripcion
+  description: Introducir el análisis de imágenes/video al implementar las siguientes operaciones de análisis para imágenes/video tanto por software como por hardware (empleando shaders)
 
 

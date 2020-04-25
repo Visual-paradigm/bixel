@@ -5,8 +5,8 @@ boolean toggle;
 
 void setup() {
   size(1300, 650);
-  image = loadImage("Sketches/gray_scale/Lenna.png");
-  image2 = loadImage("Sketches/gray_scale/Lenna.png");
+  image = loadImage("Lenna.png");
+  image2 = loadImage("Lenna.png");
 }
 
 void draw() {

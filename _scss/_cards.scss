@@ -37,7 +37,7 @@
       box-shadow: $hover-shadow;
       top: -4px;
       border: 1px solid $error;
-      background-color: white;
+      //background-color: white;
     }
     &.active-notifications {
       padding-bottom: 18px;
@@ -47,7 +47,7 @@
         z-index: -1;
         top: -16px;
         right: -16px;
-        background: $error;
+        //background: $error;
         height: 32px;
         width: 32px;
         border-radius: 32px;
