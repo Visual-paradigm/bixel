@@ -20,7 +20,7 @@
 
 title: Bixel - only a static page
 description: Odin is a simple to setup and use Jekyll theme for help desks and knowledge bases. Hosts for free on Github Pages!
-baseurl: "" # the subpath of your site, e.g. /support
+baseurl: "/bixel" # the subpath of your site, e.g. /support
 url: "https://visual-paradigm.github.io" # the base hostname AND PROTOCOL for your site, e.g. http://example.com
 permalink: :categories/:title
 
