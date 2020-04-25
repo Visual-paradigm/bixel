@@ -9,10 +9,8 @@ using-odin:
 customizing-odin:
   name: Customizing Odin
   description: Welcome to Odin, time to get startedt
-masks:
-  name: Mascaras
+image-processing:
+  name: Procesamiento de imágenes
   description: una interesante descripcion
-image-ascii:
-  name: Imagen a ASCII
-  description: una interesante descripcion
+
 

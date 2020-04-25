@@ -16,3 +16,8 @@ subcategory-three:
   parent-category: using-subcategories
   parent-category-name: Using Subcategories
   description: This is your third subcategory!
+grayscale:
+   name: Escala de grises
+   parent-category: image-processing
+   parent-category-name: Procesamiento de imágenes
+   description: This is your third subcategory!
