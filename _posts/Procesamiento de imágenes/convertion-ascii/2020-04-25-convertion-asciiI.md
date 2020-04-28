@@ -20,7 +20,8 @@ contrar con processing
 
 La implementacion de la estrategia utilizada es presentada a continuación
 
-```Java
+```java
+
 PImage image;
 boolean toggle;
 PFont f;
@@ -63,9 +64,5 @@ void keyPressed() {
         textSize--;
     }
 }
-```
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+
 ```
