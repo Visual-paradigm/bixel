@@ -1,28 +1,28 @@
 
-PImage image;
-PImage image2;
+PImage img;
+PImage img2;
 boolean toggle;
 
 void setup() {
-  size(1300, 650);
-  image = loadImage("Lenna.png");
-  image2 = loadImage("Lenna.png");
+  size(1050, 540);
+  img = loadImage("../Sketches/gray_scale/Lenna.png");
+  img2 = loadImage("../Sketches/gray_scale/Lenna.png");
 }
 
 void draw() {
   background(50);
-  image(image, 0, 0);  
+  image(img, 0, 0);  
   if(toggle)
-    image(image2, 640, 0);
+    image(img2, 540, 0);
 }
 
 void complementary() {
   //image2.loadPixels();
-  for (int i = 0; i < image.width * image.height; i++) {
-    color c = image.pixels[i];
-    image2.pixels[i] = color((red(c)+green(c)+blue(c))/3);
+  for (int i = 0; i < img.width * img.height; i++) {
+    color c = img.pixels[i];
+    img2.pixels[i] = color((red(c)+green(c)+blue(c))/3);
   }
-  //image2.updatePixels();
+  img2.updatePixels();
 }
 
 

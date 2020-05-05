@@ -8,7 +8,8 @@ short-description: Visualización usando P5JS
 ---
 
 # Escala de Grises
-<script src="{{ site.baseurl }}/p5.js"></script>
-<script src="{{ site.baseurl }}/Sketches/gray_scale/grayscale.js"></script>
+<script src="../p5.js"></script>
+<script src="../Sketches/gray_scale/grayscale.js"></script>
+
 
 
