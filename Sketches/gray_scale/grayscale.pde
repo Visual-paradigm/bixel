@@ -17,7 +17,7 @@ void draw() {
 }
 
 void complementary() {
-  //image2.loadPixels();
+  img2.loadPixels();
   for (int i = 0; i < img.width * img.height; i++) {
     color c = img.pixels[i];
     img2.pixels[i] = color((red(c)+green(c)+blue(c))/3);

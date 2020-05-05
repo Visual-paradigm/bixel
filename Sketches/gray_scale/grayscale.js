@@ -13,13 +13,20 @@ function setup() {
 function draw() {
   
     background(50);
-    complementary();
+    //complementary();
     image(img, 0, 0);
+    
+    if(toggle){
+      complementary();
+      image(img2, 520, 0);
+    }
+    
 }
 
 function complementary() {
   
-  image(img2, 520, 0, img.width, img.height);
+  
+  //image(img2, 520, 0, img.width, img.height);
         
   loadPixels();
   for (var y = 0; y < height; y++) {
@@ -42,8 +49,8 @@ function complementary() {
 }
 
 
-function keyPressed() {
-  if (key == 'c')
-    complementary();
+function mouseClicked() {
+  //complementary();
   toggle = !toggle;
-} 
+
+}

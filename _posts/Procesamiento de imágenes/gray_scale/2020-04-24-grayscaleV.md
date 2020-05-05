@@ -8,8 +8,12 @@ short-description: Visualización usando P5JS
 ---
 
 # Escala de Grises
+
+## Dale click sobre la imagen
 <script src="../p5.js"></script>
 <script src="../Sketches/gray_scale/grayscale.js"></script>
+
+
 
 
 
