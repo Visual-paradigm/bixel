@@ -5,7 +5,7 @@ let toggle;
 function setup() {
   
   var cnv = createCanvas(1050, 520);
-  cnv.position('190', '450');
+  cnv.position('190', '500');
   img = loadImage("../Sketches/gray_scale/Lenna.png");
   img2 = loadImage("../Sketches/gray_scale/Lenna.png");
 }
