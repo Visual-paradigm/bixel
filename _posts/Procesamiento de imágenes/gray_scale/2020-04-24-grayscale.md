@@ -50,8 +50,7 @@ void complementary() {
     for (int i = 0; i < image.width * image.height; i++) {
       color c = image.pixels[i];
       image2.pixels[i] = color((red(c)+green(c)+blue(c))/3);
-    }
-  
+    }  
 }
 
 void mouseClicked() {
