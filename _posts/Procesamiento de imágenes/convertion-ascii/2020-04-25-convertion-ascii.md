@@ -1,24 +1,30 @@
 ---
 layout: post
-title: "Implementación"
+title: "Implementación y visualización"
 date: 2020-04-25 10:29:38 -0400
 category: convertion-ascii
 author: mac
-short-description: Implementación en processing
+short-description: conversión a ASCII
 ---
 
 
 # Conversión a ASCII
-Para la realizacion de la practica presentada a continuación fue necesario 
-contrar con processing 
 
 
+**Presiona 'c' para aumentar el tamaño de letra
+y 'x' para disminuir el tamaño de letra**
+
+
+#### El resultado obtenido es el siguiente: 
+
+
+<script src="../p5.js"></script>
+<script src="../Sketches/ascii_convertion/convertion.js"></script>
 
 ![_config.yml]({{ site.baseurl }}/Sketches/gray_scale/Lenna.png)
 
-## Codigo
+#### El código en processing es el siguiente:
 
-La implementacion de la estrategia utilizada es presentada a continuación
 
 ```java
 
@@ -53,7 +59,6 @@ void asciiFunc() {
             text(asciichar.charAt(charPosition),i,j);
         }
     }
-  
 }
 
 void keyPressed() {

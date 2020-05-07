@@ -4,5 +4,7 @@
 image-processing:
   name: Procesamiento de imágenes
   description: Introducir el análisis de imágenes/video al implementar las siguientes operaciones de análisis para imágenes/video tanto por software como por hardware (empleando shaders)
-
+information_display:
+    name: Visualización de información
+    description: no introduction for the moment
 

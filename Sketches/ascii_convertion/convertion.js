@@ -4,8 +4,8 @@ let f;
 let asciichar = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,^`'. ";
 let textSize=5;
 function setup() {
-  var cnv = createCanvas(1050, 520);
-  cnv.position('190', '500');
+  var cnv = createCanvas(1050, 525);
+  cnv.position('190', '538');
   photo = loadImage("../Sketches/ascii_convertion/Lenna.png");
    f = textFont("Arial",textSize,true);
 }

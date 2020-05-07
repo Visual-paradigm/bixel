@@ -4,8 +4,8 @@ let toggle;
 
 function setup() {
   
-  var cnv = createCanvas(1050, 520);
-  cnv.position('190', '500');
+  var cnv = createCanvas(1022, 515);
+  cnv.position('190', '560');
   img = loadImage("../Sketches/gray_scale/Lenna.png");
   img2 = loadImage("../Sketches/gray_scale/Lenna.png");
 }
@@ -18,7 +18,7 @@ function draw() {
     
     if(toggle){
       complementary();
-      image(img2, 520, 0);
+      image(img2, 510, 0);
     }
     
 }

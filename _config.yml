@@ -52,12 +52,12 @@ nav_button_link: /bixel/
 
 # More Help
 
-help_one_title: Bixel Bugs
+help_one_title: Problemas con Bixel
 help_one_content: Si encuentras cualquier bug o problema con la pagina, por favor coloca el problema en github
 help_one_button: Github
 help_one_link: https://github.com/Visual-paradigm/bixel/issues
 
-help_two_title: Suggestions
+help_two_title: Sugerencias
 help_two_content: Si cuentas con alguna sugerencia no dudes en comunicarte con nosotros.
 help_two_button: Github
 help_two_link: https://github.com/Visual-paradigm/
