@@ -29,7 +29,7 @@ use_authors: true #Set this to false to disable showing post authors
 
 brand_logo: programmer.png
 brand_name: Bixel
-header: Bixel a simple static page
+header: Bixel, a simple static page
 subheader: Trabajos de la asignatura Computación Visual.
 
 meta_image: odin-meta.png
