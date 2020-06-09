@@ -5,11 +5,11 @@ var video;
 function setup() {
   
     var cnv = createCanvas(645, 500);
-    cnv.position('190', '570');
+    cnv.position('190', '760');
     background(51);
     video = createVideo(['../Sketches/gray_scale/Video/video.mp4']);
-    video.size(640, 480);
-    video.position('610','670')
+    video.size(380, 380);
+    video.position('840','860')
     
 }
 
@@ -33,9 +33,7 @@ function draw() {
         }
     }  
     video.updatePixels();  
-  
-  
-    image(video, 0, 0, 640, 480);
+  image(video, 0, 0, 640, 480);
 }
 
 function keyPressed() {

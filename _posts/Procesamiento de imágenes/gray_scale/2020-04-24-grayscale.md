@@ -4,7 +4,7 @@ title: "Implementación y visualización"
 date: 2019-11-05 08:44:38 -0400
 category: grayscale
 author: mac
-short-description: Escala de grises
+short-description: Escala de grises para una imagen
 ---
 
 # Escala de Grises

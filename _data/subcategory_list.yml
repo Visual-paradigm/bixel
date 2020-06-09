@@ -11,7 +11,7 @@ convolution-masks:
    name: Mascaras de convolución
    parent-category: image-processing
    parent-category-name: Procesamiento de imágenes
-   description: This is your third subcategory!   
+   description: Procesamiento de imagenes
 convertion-ascii:
    name: Conversión a ASCII
    parent-category: image-processing

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Implementación"
+title: "Implementación y visualización"
 date: 2019-11-05 08:44:38 -0400
 category: convolution-masks
 author: mac
-short-description: Implementación en processing
+short-description: Mascaras de convolución aplicadas a una imagen
 ---
 
 
