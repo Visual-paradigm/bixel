@@ -8,9 +8,13 @@ short-description: Escala de grises
 ---
 
 # Escala de Grises
-El metodo utilizado para convertir la imagen a escala de grises es el de sacar el 
-**promedio aritmético de los valores RGB**. para ver el efecto puede dar un click
-sobre la imagen.
+
+En el siguiente post se va a bordar el proceso realizado para convertir una imagen a escala de grises y su respectiva documentación usando varios metodos, todo esto utilizando **procesing**  
+
+-- El primer método que se va a emplear es **promedio aritmético de los valores RGB**. Los valores RGB varian entre 0 y 255, lo cual posibilita realizar la operación.
+
+-- El segundo método que se va a emplear es **calculando la variable Luma**. Para realizar dicho proceso es necesario utilizar la siguiente ecuación **Y = 0.2989*R + 0.5870*G + 0.1140*B**
+
 
 
 #### El resultado obtenido es el siguiente: 
@@ -18,10 +22,13 @@ sobre la imagen.
 
 ![_config.yml]({{ site.baseurl }}/Sketches/gray_scale/Lenna.png)
 
+
 <script src="../p5.js"></script>
 <script src="../Sketches/gray_scale/grayscale.js"></script>
 
+-- **x** para poder visualizar el resultado de la aplicación del promedio aritmético
 
+-- **y** para poder visualizar el resultado de haber utlizado la variable Luma
 
 #### El código en processing es el siguiente:
 
@@ -52,6 +59,7 @@ void complementary() {
       image2.pixels[i] = color((red(c)+green(c)+blue(c))/3);
     }  
 }
+
 
 void mouseClicked() {
     complementary();
