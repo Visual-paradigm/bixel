@@ -13,7 +13,7 @@ En el siguiente post se va a bordar el proceso realizado para convertir una imag
 
 -- El primer método que se va a emplear es **promedio aritmético de los valores RGB**. Los valores RGB varian entre 0 y 255, lo cual posibilita realizar la operación.
 
--- El segundo método que se va a emplear es **calculando la variable Luma**. Para realizar dicho proceso es necesario utilizar la siguiente ecuación **Y = 0.2989*R + 0.5870*G + 0.1140*B**
+-- El segundo método que se va a emplear es **calculando la variable Luma**. Para realizar dicho proceso es necesario utilizar la siguiente ecuación: **Y = 0.2989xR + 0.5870xG + 0.1140xB**
 
 
 
