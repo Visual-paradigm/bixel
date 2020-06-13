@@ -1,19 +1,72 @@
 {% if site.help_one_title == null %}
 {% else %}
 <div class="column col-12 text-center mt-16">
-  <h4>Necesitas ayuda?</h4>
+  <h2>Acerca del Proyecto</h2>
 </div>
-<div class="column col-4 col-sm-12 p-8 mb-8 col-mx-auto">
-  <h5>{{ site.help_one_title }}</h5>
-  <p>{{ site.help_one_content }}</p>
-  <a href="{{ site.help_one_link }}">{{ site.help_one_button }} <i class='uil uil-arrow-right arrow-hover'></i></a>
+<div style="padding-top: 60px;padding-bottom: 60px;">
+    
+    Bienvenido!
+    <div style="padding-bottom: 40px; font-size: 20px">
+        <h3>Motivación</h3> 
+        <i>
+            Tener una inmersión en el mundo de la computación visual 
+            y cuales han sido los aportes en la resolución de problemas del mundo contemporaneo.
+        </i> 
+    </div>
+
+    <div style="padding-bottom: 40px; font-size: 20px">
+        <h3>Objetivos</h3>
+        <ul>
+            <li>
+                Construir una pagina web estática por medio del generador de contenido estático <b>JEKYLL</b>
+            </li>
+            <li>
+                Conocer y manipular las diferentes propiedas de los recursos visuales <b>(imagenes y videos)</b>,
+                con el fin de aplicarles técnicas tales como <b>Mascaras de convolución, Escala de grises (promedio RGB & lumma)
+                y conversión a ASCII</b>
+            </li>
+            <li>
+                Contrastar la eficiencia computacional entre el procesamiento mediante software y hardware, usando
+                algunos algoritmos vistos durante el transcurso
+            </li>
+        </ul>
+    </div>
+    <div style="padding-bottom: 40px; font-size: 20px">
+        <h3>Metodología</h3>
+
+        Recopilar información suministrada por el profesor con el fin de comprender los conceptos basicós pertenecientes 
+        al procesamiento de imagenes, sin dejar de lado el desarrollo colaborativo de cada uno de los retos que se presentaban 
+        en el analisis de imagenes. 
+
+    </div>
+    
+    <div style="padding-bottom: 40px; font-size: 20px">
+        <h3>Resultados</h3>
+
+        <ul>
+            <li>Aplica</li>
+        </ul>
+
+    </div>
+    
+    <div style="padding-bottom: 40px; font-size: 20px">
+        <h3>Conclusiones</h3>
+
+        <ul>
+            <li>
+                La eficiencia computacional en el procesamiento de imagenes usando shaders(hardware) es 
+                mayor a la obtenida por medio de software, dado que para el primer escenario se utiliza GPU
+                lo cual posibilita la utilización de programación paralela.
+            </li>
+            <li>
+                
+            </li>
+        </ul>
+
+    </div>
+    
 </div>
-{% endif %}
-{% if site.help_two_title == null %}
-{% else %}
-<div class="column col-4 col-sm-12 p-8 mb-8 col-mx-auto">
-  <h5>{{ site.help_two_title }}</h5>
-  <p>{{ site.help_two_content }}</p>
-  <a href="{{ site.help_two_link }}" target="_blank">{{ site.help_two_button}} <i class='uil uil-arrow-right arrow-hover'></i></a>
-</div>
+
+
+
 {% endif %}
