@@ -15,7 +15,7 @@ En el siguiente post se va a bordar el proceso realizado para convertir una imag
 
 -- El segundo método que se va a emplear es **calculando la variable Luma**. Para realizar dicho proceso es necesario utilizar la siguiente ecuación: **Y = 0.2989xR + 0.5870xG + 0.1140xB**
 
-Para que se pudiera visualizar el video fue necesario tomar cada **frame** del video y aplicarle a cada uno la escala de grises por cada uno de los metodos anteriormente mencionados.
+Para que se pudiera visualizar el video en escala de grises fue necesario tomar cada **frame** del video y aplicarle a cada uno el proceso mencionado anteriormente sea **calculando la varible luma o calculando el promedio aritmético de los valores RGB**
 
 
 #### El resultado obtenido es el siguiente:   

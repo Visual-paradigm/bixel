@@ -17,3 +17,8 @@ convertion-ascii:
    parent-category: image-processing
    parent-category-name: Procesamiento de imágenes
    description: Procesamiento de imagenes
+histogram:
+   name: Histograma de imagen
+   parent-category: image-processing
+   parent-category-name: Procesamiento de imágenes
+   description: Procesamiento de imagenes
