@@ -36,6 +36,7 @@ function drawHist() {
     for (var x = 0 ; x < img.width; x++){
         let w = parseInt(map(x,0,img.width,0,255));
         let y = parseInt(map(histograma[w],0,Max,img.height,0));
+        stroke(w,256-2*w,192);
         line(x+520,0.98*img.height,x+520,0.98*y)
         
         if (x % 50 === 0){
