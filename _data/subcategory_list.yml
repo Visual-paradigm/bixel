@@ -22,3 +22,8 @@ histogram:
    parent-category: image-processing
    parent-category-name: Procesamiento de imágenes
    description: Procesamiento de imagenes
+eficient:
+   name: Eficiencia computacional
+   parent-category: image-processing
+   parent-category-name: Procesamiento de imágenes
+   description: Procesamiento de imagenes
