@@ -9,13 +9,18 @@ short-description: Eficiencia computacional
 
 
 # Eficiencia computacional
-A continuacion se observara la diferencia computacional que existe entre el procesamoento por
-software y por hardware, asi como la eficiencia que se encuentra en este ultimo
 
+Con el fin de evidenciar la diferencia que existe entre el procesamiento por hardware y sofware, se usaron dos 
+archivos de video los cuales contaban con caracteristicas diferentes. Todo los resultados y datos propios 
+obtenidos del previo analisis son presentados a continuación.
+
+.  
+  
 #### Propiedades de los videos procesados
 
 los videos procesados son **chavo.mp4 & disney.mp4** a continuación se puede observar
 cada una de las propiedades de ambos archivos de video.  
+
 <table class="tg">
 <thead>
   <tr>
@@ -52,7 +57,7 @@ cada una de las propiedades de ambos archivos de video.
 </table>
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0; text-align:center}
+.tg  {border-collapse:collapse;border-spacing:0; text-align:center;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
