@@ -232,6 +232,13 @@ en los ultimos 10 frames asi como **el framerate** de ambos archivos de video.
   </tr>
 </tbody>
 </table>
-   
+
+
+.  
+.  
+
+#### Comparación Grafica de los datos
+
+<img src="../Sketches/graficoEficiencia.PNG">
 
 
