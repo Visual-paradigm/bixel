@@ -16,6 +16,9 @@ contrar con processing
 
 ![_config.yml]({{ site.baseurl }}/Sketches/gray_scale/Lenna.png)
 
+<script src="../p5.js"></script>
+<script src="../Sketches/convolution-masks/convolution.js"></script>
+
 ## Codigo
 
 La implementacion de la estrategia utilizada es presentada a continuación
